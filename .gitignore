@@ -73,3 +73,41 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- เพิ่มเติมสำหรับ VS Code ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- เพิ่มเติมสำหรับ macOS (กรณีใช้ Mac หรือเพื่อนในทีมใช้) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- เพิ่มเติมสำหรับ Windows ---
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- เพิ่มเติมสำหรับ Unity Packages & Asset Store ---
+# หากคุณใช้ PlasticSCM หรือ Version Control อื่นๆ ใน Unity
+/[Aa]ssets/Plugins/PlasticSCM*
+# หากคุณโหลด Asset ที่มีโฟลเดอร์ Demo ขนาดใหญ่ (แนะนำให้ ignore ถ้าไม่ใช้)
+# /[Aa]ssets/**/Demo*
+# /[Aa]ssets/**/Samples*
+
+# --- เพิ่มเติมสำหรับ 3D Modeling (Blender/Maya/3dsMax) ---
+# ป้องกันไฟล์สำรองจากโปรแกรมปั้นโมเดลหลุดเข้าไป
+*.blend1
+*.blend2
+*.bak
+*.mb.swp
+*.mayaSwatches
+
+# --- เพิ่มเติมสำหรับ OS อื่นๆ และไฟล์บีบอัด ---
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
