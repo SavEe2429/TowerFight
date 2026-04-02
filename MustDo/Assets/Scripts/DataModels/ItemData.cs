@@ -1,16 +1,22 @@
 using UnityEngine;
 
-public class ItemData : MonoBehaviour
+[CreateAssetMenu(fileName = "NewItemData", menuName = "TowerFight/Data/Item Data")]
+public class ItemData : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Item Info")]
+    public string itemID;
+    public string itemName;
+    public Sprite itemIcon;
+    public ItemCategory itemCategory;
+    [TextArea(2, 4)] public string description;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Status")]
+    public int bonusHealth;
+    public int bonusAttack;
+    public int duration;
+    public int recruitCost;
+
+    [Header("Sell")]
+    public int sellPrice;
+
 }

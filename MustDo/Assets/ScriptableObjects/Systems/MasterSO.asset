@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88ce5cbfd10c374a8d34c4e325fad83, type: 3}
+  m_Name: MasterSO
+  m_EditorClassIdentifier: Assembly-CSharp::MasterSO
+  unitDatas:
+  - {fileID: 11400000, guid: 661652873c28d27418e2ce1d9b5f78cb, type: 2}
+  - {fileID: 11400000, guid: 524e94c31ed0d9340b68f9f6cbbcdb4b, type: 2}
+  - {fileID: 11400000, guid: 09791400c6163cf49825997ba9dd0dea, type: 2}
+  - {fileID: 11400000, guid: 7982e714b154cd848a6c6d92ba18524b, type: 2}
+  skillDatas:
+  - {fileID: 11400000, guid: 5ef0e756dace24a46937afae840e62c3, type: 2}
+  - {fileID: 11400000, guid: 7d50bdfdca0720043ad71e598fd831c4, type: 2}
+  - {fileID: 11400000, guid: f594aba9cd88a7b4e9a9d4db6bb05395, type: 2}
+  - {fileID: 11400000, guid: 6e6af81cd5991fa4d8cac3f31e95359d, type: 2}
+  itemDatas:
+  - {fileID: 11400000, guid: 01580814f0bc29944b4c0bf42b8688ba, type: 2}
+  - {fileID: 11400000, guid: 173574a5f857cef42abbcca5f7878880, type: 2}
+  - {fileID: 11400000, guid: 007d9fc366dd2fc4f86fdb297560612b, type: 2}
+  - {fileID: 11400000, guid: 604eaef4f680b9c43a30a0004441cec1, type: 2}
+  buildingDatas:
+  - {fileID: 11400000, guid: cc0fd6140e0e84d41bfc5be58545f4e2, type: 2}
+  - {fileID: 11400000, guid: 2335fe0206d78044aba708d204246498, type: 2}
+  - {fileID: 11400000, guid: 40302b8290eb86f4eadae7626d5375e4, type: 2}
+  - {fileID: 11400000, guid: 82d848f2ec6cd064f949a8b20e8ae28e, type: 2}
+  cardDatas:
+  - {fileID: 11400000, guid: 3a36500f0c5ea064384b8f74df7bbd87, type: 2}
+  - {fileID: 11400000, guid: e98f90fa10d0cfd489275f868a6e0efc, type: 2}
+  - {fileID: 11400000, guid: d6bfea196d489044d8df5610bbf6fa08, type: 2}
