@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkillData
   skillID: 2
   skillName: 
-  effectType: 0
+  effectType: 1
   description: 
   damageMultiplier: 1.5
   coolDown: 20

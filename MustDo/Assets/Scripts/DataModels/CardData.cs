@@ -1,3 +1,4 @@
+using NaughtyAttributes;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -7,7 +8,7 @@ public class CardData : ScriptableObject
     [Header("Card Info")]
     public string cardID;
     public string cardName;
-    [TextArea(2, 4)] public string description;
+    [ResizableTextArea] public string description;
     public Sprite cardIcon;
     public Rarity rarity;
 

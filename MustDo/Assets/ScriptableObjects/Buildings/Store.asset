@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143a44bf79b0e7e48aa1e9aa667d9d03, type: 3}
+  m_Name: Store
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingData
+  buildingID: 6
+  buildingType: 5
+  gridSize: {x: 1, y: 1}
+  buildingLevel: {x: 1, y: 4}
+  buildingLevelPrefab:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  farm:
+    rice: 0
+    wood: 0
+    storage: 0
+    storageRate: 8000
+    riceRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 20
+        inSlope: 0
+        outSlope: 130
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 150
+        inSlope: 130
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    woodRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: 0
+        outSlope: 90
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 100
+        inSlope: 90
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  mine:
+    stone: 0
+    iron: 0
+    soulStone: 0
+    storage: 0
+    storageRate: 8000
+    stoneRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 20
+        inSlope: 0
+        outSlope: 130
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 150
+        inSlope: 130
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ironRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: 0
+        outSlope: 90
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 100
+        inSlope: 90
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    soulStoneRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 9
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 10
+        inSlope: 9
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  store:
+    weapon:
+    - {fileID: 11400000, guid: 01580814f0bc29944b4c0bf42b8688ba, type: 2}
+    armor:
+    - {fileID: 11400000, guid: 173574a5f857cef42abbcca5f7878880, type: 2}
+    - {fileID: 11400000, guid: 007d9fc366dd2fc4f86fdb297560612b, type: 2}
+    accessory:
+    - {fileID: 11400000, guid: 604eaef4f680b9c43a30a0004441cec1, type: 2}
+  magicStore:
+    damage:
+    - {fileID: 11400000, guid: 5ef0e756dace24a46937afae840e62c3, type: 2}
+    buff:
+    - {fileID: 11400000, guid: 6e6af81cd5991fa4d8cac3f31e95359d, type: 2}
+    debuff:
+    - {fileID: 11400000, guid: f594aba9cd88a7b4e9a9d4db6bb05395, type: 2}
+    heal:
+    - {fileID: 11400000, guid: 7d50bdfdca0720043ad71e598fd831c4, type: 2}
+    cc:
+    - {fileID: 11400000, guid: 472d7e3c0cb871743abf338009a552a7, type: 2}
+  woodCost: 19500
+  stoneCost: 13000
+  ironCost: 13000
+  woodRate: 15000
+  stoneRate: 10000
+  ironRate: 10000

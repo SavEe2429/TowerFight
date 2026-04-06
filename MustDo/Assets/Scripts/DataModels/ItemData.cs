@@ -1,3 +1,4 @@
+using NaughtyAttributes;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewItemData", menuName = "TowerFight/Data/Item Data")]
@@ -8,7 +9,7 @@ public class ItemData : ScriptableObject
     public string itemName;
     public Sprite itemIcon;
     public ItemCategory itemCategory;
-    [TextArea(2, 4)] public string description;
+    [ResizableTextArea] public string description;
 
     [Header("Status")]
     public int bonusHealth;
