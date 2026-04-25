@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Store
   m_EditorClassIdentifier: Assembly-CSharp::BuildingData
   buildingID: 6
-  buildingType: 5
+  buildingType: 0
   gridSize: {x: 1, y: 1}
   buildingLevel: {x: 1, y: 4}
   buildingLevelPrefab:
@@ -171,6 +171,68 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7d50bdfdca0720043ad71e598fd831c4, type: 2}
     cc:
     - {fileID: 11400000, guid: 472d7e3c0cb871743abf338009a552a7, type: 2}
+  gachaTree:
+    minRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0.25
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 4
+        value: 1
+        inSlope: 0.25
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rarityMinRate:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    maxRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0.25
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 4
+        value: 1
+        inSlope: 0.25
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    rarityMaxRate:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    unitDatas: []
   woodCost: 19500
   stoneCost: 13000
   ironCost: 13000

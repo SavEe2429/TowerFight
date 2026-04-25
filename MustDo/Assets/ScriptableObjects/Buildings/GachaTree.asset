@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143a44bf79b0e7e48aa1e9aa667d9d03, type: 3}
   m_Name: GachaTree
   m_EditorClassIdentifier: Assembly-CSharp::BuildingData
-  buildingID: 
-  buildingType: 0
+  buildingID: 2
+  buildingType: 4
   gridSize: {x: 1, y: 1}
   buildingLevel: {x: 1, y: 4}
   buildingLevelPrefab:
@@ -22,9 +22,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   farm:
-    rice: 0
-    wood: 0
-    storage: 0
+    rice: 20
+    wood: 10
+    storage: 8000
     storageRate: 8000
     riceRate:
       serializedVersion: 2
@@ -75,10 +75,10 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   mine:
-    stone: 0
-    iron: 0
-    soulStone: 0
-    storage: 0
+    stone: 20
+    iron: 10
+    soulStone: 1
+    storage: 8000
     storageRate: 8000
     stoneRate:
       serializedVersion: 2
@@ -157,11 +157,16 @@ MonoBehaviour:
     armor: []
     accessory: []
   magicStore:
-    damage: []
-    buff: []
-    debuff: []
-    heal: []
-    cc: []
+    damage:
+    - {fileID: 11400000, guid: 5ef0e756dace24a46937afae840e62c3, type: 2}
+    buff:
+    - {fileID: 11400000, guid: 6e6af81cd5991fa4d8cac3f31e95359d, type: 2}
+    debuff:
+    - {fileID: 11400000, guid: f594aba9cd88a7b4e9a9d4db6bb05395, type: 2}
+    heal:
+    - {fileID: 11400000, guid: 7d50bdfdca0720043ad71e598fd831c4, type: 2}
+    cc:
+    - {fileID: 11400000, guid: 472d7e3c0cb871743abf338009a552a7, type: 2}
   gachaTree:
     minRate:
       serializedVersion: 2

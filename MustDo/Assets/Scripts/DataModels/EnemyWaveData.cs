@@ -3,5 +3,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewEnemyWaveData", menuName = "TowerFight/Data/EnemyWaveData")]
 public class EnemyWaveData : ScriptableObject
 {
-    // ??????????????? EnemyWaveData ??????
+    
 }

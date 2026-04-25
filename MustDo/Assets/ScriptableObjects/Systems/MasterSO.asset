@@ -29,8 +29,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 007d9fc366dd2fc4f86fdb297560612b, type: 2}
   - {fileID: 11400000, guid: 604eaef4f680b9c43a30a0004441cec1, type: 2}
   buildingDatas:
-  - {fileID: 11400000, guid: 40302b8290eb86f4eadae7626d5375e4, type: 2}
   - {fileID: 11400000, guid: cc0fd6140e0e84d41bfc5be58545f4e2, type: 2}
+  - {fileID: 11400000, guid: 40302b8290eb86f4eadae7626d5375e4, type: 2}
   - {fileID: 11400000, guid: 02f0fc4c3f233454882fa08e9b1a1b9c, type: 2}
   - {fileID: 11400000, guid: 82d848f2ec6cd064f949a8b20e8ae28e, type: 2}
   - {fileID: 11400000, guid: 2335fe0206d78044aba708d204246498, type: 2}

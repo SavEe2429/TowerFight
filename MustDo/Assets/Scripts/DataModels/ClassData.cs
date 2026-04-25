@@ -33,6 +33,7 @@ public class Farm
         storage = storageRate * currentLevel;
     }
 }
+
 [Serializable]
 public class Mine
 {

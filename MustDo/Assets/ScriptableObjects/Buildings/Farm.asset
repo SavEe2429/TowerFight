@@ -22,7 +22,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   farm:
-    rice: 0
+    rice: 20
     wood: 10
     storage: 8000
     storageRate: 8000
@@ -31,19 +31,19 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
+        value: 20
+        inSlope: 0
+        outSlope: 130
+        tangentMode: 0
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
-        tangentMode: 34
+        value: 150
+        inSlope: 130
+        outSlope: 0
+        tangentMode: 0
         weightedMode: 0
         inWeight: 0
         outWeight: 0
